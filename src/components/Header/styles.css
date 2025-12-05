@@ -1,0 +1,14 @@
+
+header {
+    padding: 0 20px;
+    background-color: var(--ct-color-bg-tertiary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    text-align: center;
+    color: var(--ct-color-bg-primary);
+    font-size: 24px;
+}
