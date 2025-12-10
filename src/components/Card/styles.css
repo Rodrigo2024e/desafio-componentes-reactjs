@@ -1,0 +1,27 @@
+.ct-card {
+    background-color: var(--ct-color-bg-primary);
+    border: 1px solid var(--ct-color-bg-tertiary);
+    border-radius: 10px;
+    
+}
+
+.ct-card img {
+    width: 391px;
+    margin-left: 170px;
+   
+
+}
+
+.ct-card p {
+    width: 192px;
+    height: 30px;
+    margin-top: 55px;
+    margin-left: 280px;
+    color: var(--ct-color-font-secondary);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: Bold;
+
+
+
+}

@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --ct-color-bg-primary:#FFFFFF;
-;
+  --ct-color-bg-primary: #FFFFFF;
+  ;
   --ct-color-bg-secondary: #C8C8C8;
   --ct-color-bg-tertiary: #3C9AF0;
+  --ct-color-bg-quaternary: #D9D9D9;
+
 
   --ct-color-font-primary: #FFFFFF;
   --ct-color-font-secondary: #5E5E5E;
@@ -12,7 +14,7 @@
 
 
 
- 
+
 
 }
 
@@ -35,7 +37,54 @@ body {
 }
 
 .ct-container {
-  width: 100%;
-  max-width: 980px;
+  width: 746px;
+  height: 802px;
   margin: 0 auto;
+
+}
+
+.ct-container h2 {
+  color: var(--ct-color-font-secondary);
+  width: 387px;
+  height: 48px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 200px;
+  padding: 15px;
+  opacity: 1;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  align-items: center;
+ 
+
+
+}
+
+
+.ct-catalog-main {
+  padding: 0 10px;
+}
+
+.ct-catalog-cards-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, ninmax(280px, 1fr));
+  margin-top: 38px;
+  width: 746px;
+  height: 802px;
+  border-radius: 10px;
+  padding: 5px;
+  
+
+
+}
+
+@media (min-widt: 576px) {
+  .ct-catalog-main {
+    padding: 0 20px;
+  }
 }
