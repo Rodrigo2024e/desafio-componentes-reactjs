@@ -12,10 +12,12 @@
   --ct-color-font-secondary: #5E5E5E;
   --ct-color-font-tertiary: #3C9AF0;
 
+}
 
 
-
-
+main {
+    width: 100%;
+    margin: auto;
 }
 
 * {
@@ -34,57 +36,70 @@ a:hover {
 html,
 body {
   background-color: var(--ct-color-bg-primary);
+  margin: 0;
 }
 
 .ct-container {
   width: 746px;
-  height: 802px;
+  height: 840px;
   margin: 0 auto;
 
+}
+
+.ct-container-comentario {
+  width: 100%;
+  margin: 0 auto;
+  height: 692px;
+  background-color: var(--ct-color-bg-secondary);
+  
 }
 
 .ct-container h2 {
   color: var(--ct-color-font-secondary);
-  width: 387px;
+  width: 287px;
   height: 48px;
-  margin: 0 auto;
   margin-top: 20px;
   margin-left: 200px;
-  padding: 15px;
-  opacity: 1;
-  font-family: Poppins;
-  font-weight: 700;
-  font-style: Bold;
   font-size: 32px;
+  
+}
+
+.ct-container-comentario h2 {
+  color: var(--ct-color-font-secondary);
+  width: 332px;
+  height: 48px;
+  margin-top: 25px;
+  margin-left: 520px;
+  font-size: 32px;
+  padding: 50px 0;
+
   line-height: 100%;
   letter-spacing: 0%;
-  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+
  
-
-
 }
 
 
 .ct-catalog-main {
-  padding: 0 10px;
+  
 }
 
 .ct-catalog-cards-container {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, ninmax(280px, 1fr));
-  margin-top: 38px;
-  width: 746px;
-  height: 802px;
-  border-radius: 10px;
-  padding: 5px;
-  
+  padding: 10px;
+ 
 
 
 }
 
-@media (min-widt: 576px) {
+@media (min-widt: 746px) {
   .ct-catalog-main {
     padding: 0 20px;
   }
 }
+
+
